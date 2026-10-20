@@ -34,6 +34,7 @@ ENV/
 data/processed/
 data/application_history*.db
 models/*.pkl
+!models/loan_model.pkl
 
 # Notebooks
 .ipynb_checkpoints
