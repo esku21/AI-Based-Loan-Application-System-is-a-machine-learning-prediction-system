@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  [data-testid="stMainBlockContainer"] {
+    padding: 0.75rem 1rem 1.5rem;
+  }
+
+  [data-testid="stImage"] img {
+    max-width: min(46vw, 180px);
+    height: auto;
+  }
+
+  h1 {
+    font-size: clamp(1.75rem, 7vw, 2.5rem) !important;
+    line-height: 1.15 !important;
+  }
+
+  [data-testid="stMetricValue"] {
+    font-size: clamp(1.35rem, 5vw, 2rem) !important;
+  }
+
+  [data-testid="stPlotlyChart"] {
+    max-width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  [data-testid="stMainBlockContainer"] {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
